@@ -1,10 +1,15 @@
 #!/bin/bash 
 
 #===============================================================================
-#
+#          Ergis Kocumi v.3.0 of the script
 #          FILE: serverCA_V3.sh
 #
 #         USAGE: ./serverCA_V3.sh 
+# This script is used for creating:
+# 1. the key for the server
+# 2. The CSR for the server with the key of 1. 
+# 3. Creating the X509 DIGITAL CERTIFICATE for the server signed by the CAkey
+#    that is created with the script "genSSL_V3.sh"
 #===============================================================================
 
 
