@@ -1,11 +1,11 @@
 #!/bin/bash 
 
 #===============================================================================
-#
+#          Ergis Kocumi v_3.0 of the script
 #          FILE: genSSL_V3.sh
 #
 #         USAGE: ./genSSL_V3.sh 
-
+#===============================================================================
 
 
 
@@ -18,12 +18,12 @@ XFOUND=0
 # edit these below values to replace with yours
 homedir=''
 yourdomain=''
-country=IT
-state=Italy
-locality=Genoa
-organization="Hitachi"
-organizationalunit="Automation"
-san="IP.1=192.168.26.101"
+country=
+state=
+locality=
+organization=" "
+organizationalunit=""
+san="IP.1= "
 # OS is declared and will be used in its next version
 OS=$(egrep -io 'Redhat|centos|fedora|ubuntu' /etc/issue)
 
